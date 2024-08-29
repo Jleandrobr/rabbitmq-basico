@@ -10,7 +10,7 @@ public class Produtor {
                 Connection connection = connectionFactory.newConnection();
                 Channel canal = connection.createChannel();
         ) {
-            String mensagem = "Olá";
+            String mensagem = "José Leandro Fernandes De Medeiros Brasileiro";
             String NOME_FILA = "plica";
 
             //(queue, passive, durable, exclusive, autoDelete, arguments)
